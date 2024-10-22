@@ -1,19 +1,39 @@
 <!DOCTYPE html>
-<html lang="eng">
+<html lang="en">
 <head>
     <link rel="stylesheet" href="style.css">
-    <title>mijn cv</title>
+    <title>My CV</title>
 </head>
 <body>
-<header>
-    <button type="button" class="over mij">Over mij</button>
-    <button type="button" class="contact">Contact</button>
-</header>
-<h1>Dasha Postma</h1>
-<a>Software Developer student</a>
-<br>
-<p>info</p>
-<button id="cv" type="button" class="cv">Download CV</button>
-
+    <header>
+        <button type="button" class="overmij" onclick="document.getElementById('over_mij').scrollIntoView();">Over mij</button>
+        <button type="button" class="contact" onclick="document.getElementById('con').scrollIntoView();">Contact</button>
+    </header>
+    <div class="flex_container">
+        <div class="space"></div>
+        <div class="space">
+            <img src="foto3.jpg" alt="foto" class="foto">
+        </div>
+        <div id="profile" class="space">
+            <div>
+                <h1>Dasha Postma</h1>
+                <a>Software Developer Student</a>
+                <p>info</p>
+                <button onclick="window.open('CV.pdf')" id="cv" type="submit" class="cv">CV</button>
+            </div>
+        </div>
+        <div class="space"></div>
+    </div>
+    <div id="over_mij" >
+        <h2>over mij</h2>
+        <p>blah blah blah</p>
+    </div>
+    <div id="con" >
+        <h2>contact</h2>
+        <p>email</p>
+        <p>telefoon</p>
+        <p><a id="link" href="https://www.linkedin.com/in/dasha-postma-a76354330/?trk=opento_sprofile_topcard">linkedin</a></p>
+        <p><a id="link" href="https://github.com/daskzpos">github</a></p>
+    </div>
 </body>
 </html>
