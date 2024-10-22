@@ -81,6 +81,16 @@ h1 {
     color: #31442a;
 }
 
+#over_mij {
+    margin-top: 200px;
+}
+
+#over_mij p{
+    max-width: 600px;
+    text-align: center;
+    margin: 5px auto;
+}
+
 #link {
     text-decoration: none;
     color: black;
