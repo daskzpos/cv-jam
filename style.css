@@ -9,8 +9,21 @@ h1 {
     top: 20%;
 }
 
+a {
+    position: absolute;
+    left: 55%;
+    top: 28%;
+
+}
+
 p {
     position: absolute;
     left: 55%;
-    top: 25%;
+    top: 30%;
+}
+
+.cv {
+    position: absolute;
+    left: 55%;
+    top: 38%;
 }
