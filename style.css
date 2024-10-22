@@ -1,0 +1,16 @@
+header {
+    position: absolute;
+    right: 5%;
+}
+
+h1 {
+    position: absolute;
+    left: 55%;
+    top: 20%;
+}
+
+p {
+    position: absolute;
+    left: 55%;
+    top: 25%;
+}
